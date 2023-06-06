@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EmployeeAttendance-ibos.props" />
+</Project>

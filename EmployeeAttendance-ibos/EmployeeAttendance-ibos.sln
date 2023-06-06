@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33711.374
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAttendance-ibos", "EmployeeAttendance-ibos\EmployeeAttendance-ibos.csproj", "{68CACAFA-ABF9-4C8A-9A00-07DDB191BACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{ED8B97D5-B466-4FFE-B24D-3E29565FD7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{8C5DE9F4-8B6E-45CD-BB2F-E35745B555F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68CACAFA-ABF9-4C8A-9A00-07DDB191BACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CACAFA-ABF9-4C8A-9A00-07DDB191BACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CACAFA-ABF9-4C8A-9A00-07DDB191BACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CACAFA-ABF9-4C8A-9A00-07DDB191BACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8B97D5-B466-4FFE-B24D-3E29565FD7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8B97D5-B466-4FFE-B24D-3E29565FD7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8B97D5-B466-4FFE-B24D-3E29565FD7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8B97D5-B466-4FFE-B24D-3E29565FD7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5DE9F4-8B6E-45CD-BB2F-E35745B555F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5DE9F4-8B6E-45CD-BB2F-E35745B555F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5DE9F4-8B6E-45CD-BB2F-E35745B555F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5DE9F4-8B6E-45CD-BB2F-E35745B555F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {269A9527-7B2C-4047-BDE2-66ABF03AAEE6}
+	EndGlobalSection
+EndGlobal
