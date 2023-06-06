@@ -9,8 +9,8 @@ namespace DAL.Interfaces
 {
     public interface IRepo<T> where T : class
     {
-        IEnumerable<T> GetAll(string? includeProperties = null);
-        T Get(Expression<Func<T, bool>> filter, string? includeProperties = null);
+        IEnumerable<T> GetAll();
+        T Get(Expression<Func<T, bool>> filter);
         void Add(T entity);
         void Remove(int id);
     }

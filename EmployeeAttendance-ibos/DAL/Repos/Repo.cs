@@ -19,7 +19,6 @@ namespace DAL.Repos
         {
             _db = db;
             dbSet = _db.Set<T>(); //dbSet == _db.Employee; when T == Employee
-            _db.EmployeeAttendances.Include(e => e.Employee); // include properties
         }
 
         public void Add(T entity)
@@ -27,30 +26,15 @@ namespace DAL.Repos
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null)
+        public T Get(Expression<Func<T, bool>> filter)
         {
-            IQueryable<T> query = dbSet;
-            query = query.Where(filter);
-            if (!string.IsNullOrEmpty(includeProperties))
-            {
-                foreach (var property in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    query = query.Include(property);
-                }
-            }
+            IQueryable<T> query = dbSet.Where(filter);
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll(string? includeProperties = null)
+        public IEnumerable<T> GetAll()
         {
             IQueryable<T> query = dbSet;
-            if (!string.IsNullOrEmpty(includeProperties))
-            {
-                foreach (var property in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-                {
-                    query = query.Include(property);
-                }
-            }
             return query.ToList();
         }
 
