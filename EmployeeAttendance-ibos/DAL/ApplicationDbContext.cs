@@ -9,8 +9,8 @@ namespace DAL
         {
 
         }
-        public DbSet<Employee> tblEmployee { get; set; }
-        public DbSet<EmployeeAttendance> tblEmployeeAttendance { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<EmployeeAttendance> EmployeeAttendances { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

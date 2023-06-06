@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace DAL.Models
         public string Code { get; set; }
         [Required]
         public double Salary { get; set; }
-
+        [ValidateNever]
         public virtual ICollection<EmployeeAttendance> EmployeeAttendance { get; }
 
         public Employee()

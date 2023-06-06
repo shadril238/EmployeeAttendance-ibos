@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230606173748_CreatedAllDbTablesAndSeedData")]
-    partial class CreatedAllDbTablesAndSeedData
+    [Migration("20230606224144_ValidateNeverConstraintAddedToPropertiesBothTable")]
+    partial class ValidateNeverConstraintAddedToPropertiesBothTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,7 +49,7 @@ namespace DAL.Migrations
                     b.HasIndex("Code")
                         .IsUnique();
 
-                    b.ToTable("tblEmployee");
+                    b.ToTable("Employees");
 
                     b.HasData(
                         new
@@ -102,7 +102,7 @@ namespace DAL.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("tblEmployeeAttendance");
+                    b.ToTable("EmployeeAttendances");
 
                     b.HasData(
                         new

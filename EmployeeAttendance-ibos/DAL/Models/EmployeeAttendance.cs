@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace DAL.Models
 {
@@ -26,6 +27,7 @@ namespace DAL.Models
         [Required]
         [Range(0, 1)]
         public int IsOffday { get; set; }
+        [ValidateNever]
         public virtual Employee Employee { get; set; }
     }
 }

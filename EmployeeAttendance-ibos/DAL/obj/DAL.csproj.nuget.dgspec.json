@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shadr\\Desktop\\EmployeeAttendance-ibos\\DAL\\DAL.csproj": {}
+    "E:\\EmployeeAttendance-ibos\\EmployeeAttendance-ibos\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shadr\\Desktop\\EmployeeAttendance-ibos\\DAL\\DAL.csproj": {
+    "E:\\EmployeeAttendance-ibos\\EmployeeAttendance-ibos\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shadr\\Desktop\\EmployeeAttendance-ibos\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\EmployeeAttendance-ibos\\EmployeeAttendance-ibos\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\shadr\\Desktop\\EmployeeAttendance-ibos\\DAL\\DAL.csproj",
+        "projectPath": "E:\\EmployeeAttendance-ibos\\EmployeeAttendance-ibos\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\shadr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shadr\\Desktop\\EmployeeAttendance-ibos\\DAL\\obj\\",
+        "outputPath": "E:\\EmployeeAttendance-ibos\\EmployeeAttendance-ibos\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shadr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
