@@ -10,7 +10,8 @@ namespace DAL.Interfaces
     public interface IEmployeeRepo : IRepo<Employee>
     {
         // Update Employee Code
-        public void UpdateEmployeeCode(Employee employee);
+        void UpdateEmployeeCode(Employee employee);
+        // Update all
         void Update(Employee employee);
     }
 }

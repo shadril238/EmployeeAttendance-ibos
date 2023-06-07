@@ -15,7 +15,7 @@ namespace EmployeeAttendance_ibos.Controllers
         }
 
         // Update an employee’s Employee Code [Don't allow duplicate employee code]
-        [HttpPost]
+        [HttpPut]
         [Route("api/employees/updatecode")]
         public IActionResult UpdateEmployeeCode(EmployeeDTO employee)
         {
