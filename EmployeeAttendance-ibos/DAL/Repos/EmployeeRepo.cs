@@ -15,6 +15,7 @@ namespace DAL.Repos
         {
             _db = db;
         }
+        // Update
         public void Update(Employee employee)
         {
             var objFromDb = _db.Employees.FirstOrDefault(e => e.Id == employee.Id);
