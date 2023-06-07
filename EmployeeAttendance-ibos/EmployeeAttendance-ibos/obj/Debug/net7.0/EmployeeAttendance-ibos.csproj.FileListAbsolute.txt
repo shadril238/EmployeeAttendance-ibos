@@ -84,6 +84,7 @@ E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\D
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.AssemblyInfoInputs.cache
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.AssemblyInfo.cs
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.csproj.CoreCompileInputs.cache
+E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.MvcApplicationPartsAssemblyInfo.cs
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.MvcApplicationPartsAssemblyInfo.cache
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.sourcelink.json
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\appsettings.Development.json
@@ -93,6 +94,8 @@ E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\D
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\EmployeeAttendance-ibos.runtimeconfig.json
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\EmployeeAttendance-ibos.dll
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\EmployeeAttendance-ibos.pdb
+E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\AutoMapper.dll
+E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\Azure.Core.dll
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\Azure.Identity.dll
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\Humanizer.dll
@@ -159,6 +162,3 @@ E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\D
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.pdb
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.genruntimeconfig.cache
 E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\ref\EmployeeAttendance-ibos.dll
-E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\AutoMapper.dll
-E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-E:\EmployeeAttendance-ibos\EmployeeAttendance-ibos\EmployeeAttendance-ibos\obj\Debug\net7.0\EmployeeAttendance-ibos.MvcApplicationPartsAssemblyInfo.cs

@@ -15,6 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Dependency Injection services lifetime config
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<EmployeeService>();
+builder.Services.AddScoped<EmployeeAttendanceService>();
 // Auto Mapper config
 builder.Services.AddAutoMapper(typeof(Program));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

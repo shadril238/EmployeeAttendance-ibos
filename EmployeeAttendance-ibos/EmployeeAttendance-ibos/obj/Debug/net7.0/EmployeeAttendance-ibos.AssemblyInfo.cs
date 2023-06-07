@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeAttendance-ibos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8801de63b2b6af29597c63189440a196d761eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31200d141d1e14cf510062ee76875958cbbb7f2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeAttendance-ibos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeAttendance-ibos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
