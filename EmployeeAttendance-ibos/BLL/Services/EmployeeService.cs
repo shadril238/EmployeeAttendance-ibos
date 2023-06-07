@@ -36,7 +36,7 @@ namespace BLL.Services
             }
 
             var exstEmployeeById = GetById(mapped.Id);
-            _unitOfWork.Employee.Update(mapped);
+            _unitOfWork.Employee.UpdateEmployeeCode(mapped);
             return _unitOfWork.Save();
         }
 
